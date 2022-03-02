@@ -1,0 +1,16 @@
+C:\Users\EQUALIZER\Documents\Projects\project2\bin\Debug\net5.0\project2.exe
+C:\Users\EQUALIZER\Documents\Projects\project2\bin\Debug\net5.0\project2.deps.json
+C:\Users\EQUALIZER\Documents\Projects\project2\bin\Debug\net5.0\project2.runtimeconfig.json
+C:\Users\EQUALIZER\Documents\Projects\project2\bin\Debug\net5.0\project2.runtimeconfig.dev.json
+C:\Users\EQUALIZER\Documents\Projects\project2\bin\Debug\net5.0\project2.dll
+C:\Users\EQUALIZER\Documents\Projects\project2\bin\Debug\net5.0\ref\project2.dll
+C:\Users\EQUALIZER\Documents\Projects\project2\bin\Debug\net5.0\project2.pdb
+C:\Users\EQUALIZER\Documents\Projects\project2\obj\Debug\net5.0\project2.csproj.AssemblyReference.cache
+C:\Users\EQUALIZER\Documents\Projects\project2\obj\Debug\net5.0\project2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EQUALIZER\Documents\Projects\project2\obj\Debug\net5.0\project2.AssemblyInfoInputs.cache
+C:\Users\EQUALIZER\Documents\Projects\project2\obj\Debug\net5.0\project2.AssemblyInfo.cs
+C:\Users\EQUALIZER\Documents\Projects\project2\obj\Debug\net5.0\project2.csproj.CoreCompileInputs.cache
+C:\Users\EQUALIZER\Documents\Projects\project2\obj\Debug\net5.0\project2.dll
+C:\Users\EQUALIZER\Documents\Projects\project2\obj\Debug\net5.0\ref\project2.dll
+C:\Users\EQUALIZER\Documents\Projects\project2\obj\Debug\net5.0\project2.pdb
+C:\Users\EQUALIZER\Documents\Projects\project2\obj\Debug\net5.0\project2.genruntimeconfig.cache
