@@ -6,69 +6,85 @@ namespace project2
     {
         static void Main(string[] args)
         {   
-            byte b = 5;             //1 byte
-            sbyte c = 5;            //1 byte
+             //Atama ve işlemli atama
+            int x = 3;
+            int y = 3;
 
-            short s = 5;            //2 byte
-            ushort us = 5;          //2 byte
+            y = y + 2;
+            Console.WriteLine(y);
 
-            Int16 i16 = 2;          //2 byte
-            int i = 2;              //4 byte
-            Int32 i32 = 2;          //4 byte
-            Int64 i64 = 2;          //8 byte
+            y += 2;
+            Console.WriteLine(y);
 
-            uint ui = 2;            //4 byte
-            long l = 4;             //8 byte
-            ulong ul = 4;           //8 byte
+            y /= 1;
+            Console.WriteLine(y);
 
-            float f = 5;            //4 byte
-            double d = 5;           //8 byte
-            decimal de = 5;         //16 byte
+            x *= 2;
+            Console.WriteLine(x);
 
-            char ch = '2';          //2 byte
-            string str = "Anıl";   //sınırsız
+            //Mantıksal Operatörler
+            // ||, &&, !
 
-            bool b1 = true;
-            bool b2 = false;
+            bool isSuccess = true;
+            bool isCompleted = false;
 
-            DateTime dt = DateTime.Now;
+            if (isSuccess && isCompleted)
+            {
+                Console.WriteLine("Perfect!");
+            }
+            else if (isSuccess || isCompleted)
+            {
+                Console.WriteLine("Great!");
+            }
+            else if (isSuccess && !isCompleted)
+            {
+                Console.WriteLine("Fine!");
+            }
 
-            object o1 = "x";
-            object o2 = 'y';
-            object o3 = 4;
-            object o4 = 4.3;
+            //İlişkisel Operatörler
+            // <, >, <=, >=, ==, !=
 
-            string str1 = string.Empty;
-            str1 = "Anıl Can Dikmedaş";
-            string ad = "Anıl Can";
-            string soyad = "Dikmedaş";
-            string tamIsim = ad + " " + soyad;
+            int a = 3;
+            int b = 4;
+            bool sonuc = a < b;
+            Console.WriteLine(sonuc);
 
-            int integer1 = 5;
-            int integer2 = 3;
-            int integer3 = integer1 * integer2;
+            sonuc = a > b;
+            Console.WriteLine(sonuc);
 
-            bool bool1 = 10 < 2;
+            sonuc = a >= b;
+            Console.WriteLine(sonuc);
 
-            string str20 = "20";
-            int int20 = 20;
-            string yeniDeger = str20 + int20.ToString();
-            Console.WriteLine(yeniDeger);
+            sonuc = a <= b;
+            Console.WriteLine(sonuc);
 
-            int int21 = int20 + Convert.ToInt32(str20);
-            Console.WriteLine(int21);
+            sonuc = a == b;
+            Console.WriteLine(sonuc);
 
-            int int22 = int20 + int.Parse(str20);
+            sonuc = a != b;
+            Console.WriteLine(sonuc);
 
-            string datetime = DateTime.Now.ToString("dd.MM.yyyy");
-            Console.WriteLine(datetime);
+            //Aritmetik Operatörler
+            // /, *, +, -
 
-            string datetime2 = DateTime.Now.ToString("dd/MM/yyyy");
-            Console.WriteLine(datetime2);
+            int sayi1 = 10;
+            int sayi2 = 5;
 
-            string hour = DateTime.Now.ToString("HH:mm");
-            Console.WriteLine(hour);  
-                
+            int sonuc1 = sayi1 / sayi2;
+            Console.WriteLine(sonuc1);
+
+            int sonuc2 = sayi1 * sayi2;
+            Console.WriteLine(sonuc2);
+
+            int sonuc3 = sayi1 + sayi2;
+            Console.WriteLine(sonuc3);
+
+            int sonuc4 = sayi1 ++;
+            Console.WriteLine(sonuc4);
+
+            // % mod almak için kullanılır
+            int sonuc5 = 20 % 3;
+            Console.WriteLine(sonuc5);
         }
     }
 }
